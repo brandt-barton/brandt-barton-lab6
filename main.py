@@ -13,7 +13,9 @@ def main():
     num_2 = int(input('Input another number: '))
 
     sum = num_1 + num_2
-    print(sum)
+    print('The sum of the two numbers is:', sum)
+    diff_nums = num_1 - num_2
+    print('The difference of the two numbers is:', diff_nums)
 
 
 if __name__ == '__main__':
